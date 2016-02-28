@@ -4,7 +4,6 @@ const app = express();
 
 app.set('view engine', 'jade');
 
-
 app.get("/text", lsRoutes(app), (req, res) => {
   res.render("text")
 });
